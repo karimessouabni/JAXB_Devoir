@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.karim.com/foo1"
+	xmlns:tns="http://www.karim.com/foo1" elementFormDefault="qualified">
+
+	<element name="foo">
+		<complexType>
+			<sequence>
+				<element name="bar" type="integer" minOccurs="0" maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+
+	</element>
+
+</schema>
